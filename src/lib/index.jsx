@@ -31,7 +31,7 @@ const createDictionary = (dictionary) => {
         return translation;
     }
 
-    return Translator;
+    return [Translator, t];
 }
 
 export default createDictionary;

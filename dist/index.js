@@ -55,7 +55,7 @@ var createDictionary = function createDictionary(dictionary) {
     return translation;
   };
 
-  return Translator;
+  return [Translator, t];
 };
 
 var _default = createDictionary;
